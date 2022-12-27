@@ -1,7 +1,7 @@
 proxies:
 - name: danuWs10
   type: trojan
-  server: 104.20.74.141
+  server: 172.67.199.34
   port: 443
   password: cbb998e8-99db-4508-b052-24f347e53630
   udp: true
@@ -40,7 +40,7 @@ proxies:
       Host: sg-do2.sshpremium.my.id
 - name: danuWs01
   type: trojan
-  server: 104.20.74.141
+  server: 172.67.199.34
   port: 443
   password: 128c21ef-d2cf-4a15-a3bb-c90f22448ef9
   udp: true
