@@ -40,7 +40,7 @@ proxies:
       Host: sg-do2.sshpremium.my.id
 - name: danuGo01
   type: trojan
-  server: crl.identrust.com
+  server: 104.20.74.141
   port: 443
   password: 128c21ef-d2cf-4a15-a3bb-c90f22448ef9
   udp: true
