@@ -1,17 +1,69 @@
 proxies:
-- name: danuWs10
+- name: danuWs10-IP34
   type: trojan
   server: 172.67.199.34
   port: 443
-  password: cbb998e8-99db-4508-b052-24f347e53630
+  password: f9f60cb6-22e3-4629-8ab5-5230ee38ec8b
   udp: true
-  sni: id-qword5.sshpremium.my.id
+  sni: sg-ctn.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-qword5.sshpremium.my.id
+      Host: sg-ctn.sshpremium.my.id
+- name: danuWs10-SNI
+  type: trojan
+  server: sg-ctn.sshpremium.my.id
+  port: 443
+  password: f9f60cb6-22e3-4629-8ab5-5230ee38ec8b
+  udp: true
+  sni: gomarketplacefront-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacefront-cf.zoom.us
+- name: danuWs10-Identrust
+  type: trojan
+  server: crl.identrust.com
+  port: 443
+  password: f9f60cb6-22e3-4629-8ab5-5230ee38ec8b
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuWs10-Midtrans
+  type: trojan
+  server: midtrans.com
+  port: 443
+  password: f9f60cb6-22e3-4629-8ab5-5230ee38ec8b
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuWs10
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: f9f60cb6-22e3-4629-8ab5-5230ee38ec8b
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
 - name: danuGo03
   type: trojan
   server: crl.identrust.com
@@ -38,14 +90,3 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-do2.sshpremium.my.id
-- name: danuGrpc05
-  type: trojan
-  server: wsindo.aryossh.my.id
-  port: 443
-  password: c1b0678d-6439-4893-a186-456e338c6fae
-  udp: true
-  sni: sg-do2.sshpremium.my.id
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan-grpc
