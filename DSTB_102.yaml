@@ -1,7 +1,7 @@
 proxies:
 - name: SvrDSTB_DO_Live_IP1
   type: trojan
-  server: 104.17.224.203
+  server: 104.16.108.96
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: dstb.cloud
 - name: SvrDSTB_DO_Live_IP2
   type: trojan
-  server: 104.16.143.190
+  server: 104.16.107.96
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
@@ -27,7 +27,7 @@ proxies:
       Host: dstb.cloud
 - name: SvrDSTB_DO_Live_IP3
   type: trojan
-  server: 172.67.75.37
+  server: 104.19.185.16
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
@@ -40,7 +40,7 @@ proxies:
       Host: dstb.cloud
 - name: SvrDSTB_DO_Live_IP4
   type: trojan
-  server: 104.26.15.208
+  server: 104.19.142.89
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
