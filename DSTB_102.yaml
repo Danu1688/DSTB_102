@@ -1,836 +1,4 @@
 proxies:
-- name: SvrAtha1_PROTEK_H1
-  type: trojan
-  server: cvs-deo.shopeemobile.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_PROTEK_IP1
-  type: trojan
-  server: 104.18.56.55
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_PROTEK_IP2
-  type: trojan
-  server: 104.18.62.204
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_H1
-  type: trojan
-  server: app.genflix.co.id
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_H2
-  type: trojan
-  server: investors.spotify.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_H3
-  type: trojan
-  server: cache.netflix.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_H4
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_H5
-  type: trojan
-  server: cvs-deo.shopeemobile.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_H6
-  type: trojan
-  server: creativeservices.netflix.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_H7
-  type: trojan
-  server: grabacademyportal.grab.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_H8
-  type: trojan
-  server: grabacademy-partners-profiling.grab.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_H9
-  type: trojan
-  server: grabacademy-merchants-profiling.grab.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_IP1
-  type: trojan
-  server: 172.64.148.165
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_UTU_IP2
-  type: trojan
-  server: 104.18.39.91
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Flex_H1
-  type: trojan
-  server: ava.game.naver.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Flex_H2
-  type: trojan
-  server: df.game.naver.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Vision_IP1
-  type: trojan
-  server: 104.18.225.52
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Vidio_IP1
-  type: trojan
-  server: 172.67.5.14
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Vidio_IP2
-  type: trojan
-  server: 104.22.5.240
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Vidio_H1
-  type: trojan
-  server: quiz.vidio.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Vidio_H2
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Conv_IP1
-  type: trojan
-  server: 104.18.12.78
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Conv_IP2
-  type: trojan
-  server: 104.18.13.78
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Conv_H1
-  type: trojan
-  server: gomarketplacecontent-cf.zoom.us
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Conv_H2
-  type: trojan
-  server: chat.sociomile.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Joox_H1
-  type: trojan
-  server: app.gopay.co.id
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_Joox_H2
-  type: trojan
-  server: app.genflix.co.id
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_XCP_H1
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_XCP_H2
-  type: trojan
-  server: app.midtrans.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_XCP_H3
-  type: trojan
-  server: www.skillacademy.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_XCP_H4
-  type: trojan
-  server: www.udemy.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrAtha1_XCP_H5
-  type: trojan
-  server: api.midtrans.com
-  port: 443
-  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: SvrDSTB_DO_PROTEK_H1
-  type: trojan
-  server: cvs-deo.shopeemobile.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_PROTEK_IP1
-  type: trojan
-  server: 104.18.56.55
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_PROTEK_IP2
-  type: trojan
-  server: 104.18.62.204
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_H1
-  type: trojan
-  server: app.genflix.co.id
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_H2
-  type: trojan
-  server: investors.spotify.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_H3
-  type: trojan
-  server: cache.netflix.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_H4
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_H5
-  type: trojan
-  server: cvs-deo.shopeemobile.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_H6
-  type: trojan
-  server: creativeservices.netflix.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_H7
-  type: trojan
-  server: grabacademyportal.grab.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_H8
-  type: trojan
-  server: grabacademy-partners-profiling.grab.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_H9
-  type: trojan
-  server: grabacademy-merchants-profiling.grab.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_IP1
-  type: trojan
-  server: 172.64.148.165
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_UTU_IP2
-  type: trojan
-  server: 104.18.39.91
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Flex_H1
-  type: trojan
-  server: ava.game.naver.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Flex_H2
-  type: trojan
-  server: df.game.naver.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Vision_IP1
-  type: trojan
-  server: 104.18.225.52
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Vidio_IP1
-  type: trojan
-  server: 172.67.5.14
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Vidio_IP2
-  type: trojan
-  server: 104.22.5.240
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Vidio_H1
-  type: trojan
-  server: quiz.vidio.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Vidio_H2
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Conv_IP1
-  type: trojan
-  server: 104.18.12.78
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Conv_IP2
-  type: trojan
-  server: 104.18.13.78
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Conv_H1
-  type: trojan
-  server: gomarketplacecontent-cf.zoom.us
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Conv_H2
-  type: trojan
-  server: chat.sociomile.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Joox_H1
-  type: trojan
-  server: app.gopay.co.id
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Joox_H2
-  type: trojan
-  server: app.genflix.co.id
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_XCP_H1
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_XCP_H2
-  type: trojan
-  server: app.midtrans.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_XCP_H3
-  type: trojan
-  server: www.skillacademy.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_XCP_H4
-  type: trojan
-  server: www.udemy.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_XCP_H5
-  type: trojan
-  server: api.midtrans.com
-  port: 443
-  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
 - name: SvrNusa2_PROTEK_H1
   type: trojan
   server: cvs-deo.shopeemobile.com
@@ -1247,3 +415,835 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa2.dstb.cloud
+- name: SvrDSTB_DO_PROTEK_H1
+  type: trojan
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_PROTEK_IP1
+  type: trojan
+  server: 104.18.56.55
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_PROTEK_IP2
+  type: trojan
+  server: 104.18.62.204
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_H1
+  type: trojan
+  server: app.genflix.co.id
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_H2
+  type: trojan
+  server: investors.spotify.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_H3
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_H4
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_H5
+  type: trojan
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_H6
+  type: trojan
+  server: creativeservices.netflix.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_H7
+  type: trojan
+  server: grabacademyportal.grab.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_H8
+  type: trojan
+  server: grabacademy-partners-profiling.grab.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_H9
+  type: trojan
+  server: grabacademy-merchants-profiling.grab.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_IP1
+  type: trojan
+  server: 172.64.148.165
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_UTU_IP2
+  type: trojan
+  server: 104.18.39.91
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Flex_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Flex_H2
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Vision_IP1
+  type: trojan
+  server: 104.18.225.52
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Vidio_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Vidio_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Vidio_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Vidio_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Conv_IP1
+  type: trojan
+  server: 104.18.12.78
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Conv_IP2
+  type: trojan
+  server: 104.18.13.78
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Conv_H1
+  type: trojan
+  server: gomarketplacecontent-cf.zoom.us
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Conv_H2
+  type: trojan
+  server: chat.sociomile.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Joox_H1
+  type: trojan
+  server: app.gopay.co.id
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Joox_H2
+  type: trojan
+  server: app.genflix.co.id
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_XCP_H1
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_XCP_H2
+  type: trojan
+  server: app.midtrans.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_XCP_H3
+  type: trojan
+  server: www.skillacademy.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_XCP_H4
+  type: trojan
+  server: www.udemy.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_XCP_H5
+  type: trojan
+  server: api.midtrans.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrAtha1_PROTEK_H1
+  type: trojan
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_PROTEK_IP1
+  type: trojan
+  server: 104.18.56.55
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_PROTEK_IP2
+  type: trojan
+  server: 104.18.62.204
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_H1
+  type: trojan
+  server: app.genflix.co.id
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_H2
+  type: trojan
+  server: investors.spotify.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_H3
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_H4
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_H5
+  type: trojan
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_H6
+  type: trojan
+  server: creativeservices.netflix.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_H7
+  type: trojan
+  server: grabacademyportal.grab.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_H8
+  type: trojan
+  server: grabacademy-partners-profiling.grab.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_H9
+  type: trojan
+  server: grabacademy-merchants-profiling.grab.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_IP1
+  type: trojan
+  server: 172.64.148.165
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_UTU_IP2
+  type: trojan
+  server: 104.18.39.91
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Flex_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Flex_H2
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Vision_IP1
+  type: trojan
+  server: 104.18.225.52
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Vidio_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Vidio_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Vidio_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Vidio_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Conv_IP1
+  type: trojan
+  server: 104.18.12.78
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Conv_IP2
+  type: trojan
+  server: 104.18.13.78
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Conv_H1
+  type: trojan
+  server: gomarketplacecontent-cf.zoom.us
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Conv_H2
+  type: trojan
+  server: chat.sociomile.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Joox_H1
+  type: trojan
+  server: app.gopay.co.id
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_Joox_H2
+  type: trojan
+  server: app.genflix.co.id
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_XCP_H1
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_XCP_H2
+  type: trojan
+  server: app.midtrans.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_XCP_H3
+  type: trojan
+  server: www.skillacademy.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_XCP_H4
+  type: trojan
+  server: www.udemy.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha1_XCP_H5
+  type: trojan
+  server: api.midtrans.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
